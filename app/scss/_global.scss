@@ -1,0 +1,83 @@
+/* ------------------------------- */
+/* BASIC SETUP */
+/* -------------------------------*/
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* ------------------------------- */
+/* REUSABLE COMPONENTS */
+/* -------------------------------*/
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-size: inherit;
+}
+
+body {
+    min-width: 320px;
+    overflow-x: hidden;
+    position: relative;
+    color: #505050;
+    @extend %lato-normal;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    
+    margin: 0 auto;
+}
+
+.container-content {
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.page-section {
+    background-color: #fff;
+    position: relative;
+}
+
+.page-section__title {
+    font-family: Georgia;
+    font-weight: 400;
+
+    font-size: 32px;
+    line-height: 38px;
+    color: #4E5665;
+    text-align: center;
+    margin-bottom: 22px;
+
+}
+
+.page-section__line {
+    border-bottom: 1px solid rgba(208, 212, 216, 0.5);
+}
+

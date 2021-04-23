@@ -1,0 +1,199 @@
+@media (max-width: 1080px) {
+    .cadillac {
+        &__dot--1 {
+            top: 150px;
+            left: 67px;
+        }
+        &__dot--2 {
+            top: 188px;
+            left: 340px;
+        }
+        &__dot--3 {
+            top: 133px;
+            right: 260px;
+        }
+        &__dot--4 {
+            bottom: 28px;
+            right: 200px;
+        }
+    }
+
+    .footer {
+        &__list--company {
+            width: 140px;
+            padding-left: 0;
+        }
+    }
+
+}
+
+
+@media (max-width: 840px) {
+    .general {
+        &__block {
+            background-position: top;
+            padding: 382px 0 70px;
+            margin-bottom: 0;
+        }
+
+        &__box {
+            margin: 0 auto;
+        }
+    }
+
+    .cadillac {
+        &__images-box {
+            padding-top: 0;
+        }
+
+        &__dot {
+            display: none;
+        }
+    }
+    .footer {
+        &__menu {
+            flex-wrap: wrap;
+        }
+        &__list {
+            width: 50%;
+            margin-bottom: 30px;
+            padding-right: 25px;
+        }
+    }
+
+}
+
+@media (max-width: 700px) {
+    .header {
+        margin-bottom: 60px;
+        &__title {
+            font-size: 120px;
+            line-height: 150px;
+        }
+        &__text {
+            font-size: 20px;
+        }
+    }
+    .menu {
+        position: relative;
+        &__btn {
+            position: absolute;
+            display: block;
+            width: 40px;
+            cursor: pointer;
+            right: 40px;
+            top: 10px;
+            z-index: 10;
+        }
+        &__btn span {
+            display: block;
+            margin-bottom: 10px;
+            height: 4px;
+            background-color: #FFD600;
+        }
+        &__items {
+            display: none;
+            padding-top: 60px;
+            text-align: center;
+            border-bottom: 4px solid #ECB84C;
+        }
+        &__item-link {
+            display: block;
+            border-top: 4px solid #ECB84C;
+        }
+        &__item-link:hover {
+            border-bottom: 4px solid transparent;
+        }
+    }
+
+    .main {
+        position: relative;
+    }
+
+    .slider {
+        &__control--prev {
+            left: 20px;
+        }
+        &__control--next {
+            right: 20px;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    body {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .header {
+        &__top {
+            padding: 10px;
+        }
+        &__top-inner {
+            border: 2px solid #ECB84C;
+        }
+        &__title {
+            font-size: 90px;
+            line-height: 110px;
+        }
+        &__text {
+            display: none;
+        }
+    }
+    .page-section {
+        &__title {
+            font-size: 24px;
+            line-height: 28px;
+        }
+    }
+
+    .summary {
+        &__list {
+            display: block;
+        }
+    }
+
+    .stats {
+        &__item {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media (max-width: 470px) {
+    .footer {
+        &__menu {
+            display: block;
+        }
+        &__list {
+            width: 100%;
+            padding: 0;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .general {
+        &__box {
+            padding: 33px 20px 18px;
+        }
+        &__box::before {
+            left: 0;
+            top: 9px;
+        }
+        &__box::after {
+            transform: rotate(180deg);
+            right: 0;
+            bottom: 9px;
+        }
+    }
+
+}
+
+@media (min-width: 700px) {
+    .menu {
+        &__items {
+            display: flex !important;
+        }
+    }
+}
