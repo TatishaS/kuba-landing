@@ -3,7 +3,7 @@
 - Responsive
 - HTML5, CSS3, SASS, Gulp, jQuery
 
-Deployed website:
+Deployed website: https://kuba-travel.netlify.app/
 
 ### Project setup
 
